@@ -10,10 +10,56 @@ html {
 }
 
 :root{
-    --fuetepal:'Quicksand', sans-serif;
+    --fuetePpal:'Lexend', sans-serif;;
+    --fuentetexto:'Noto Sans JP', sans-serif;
     --blanco:#ffff;
     --negro:#000000;
     --gris:#cae4db;
     --beige:#cdac81;
-    --verdeOscuro:#00303f;
+    --verdeMuyOscuro:#00303f;
+    --colorado:#d90429;
+    --naranja:#ff9500;
+    --azulFrancia:#4361ee;
+    --rosaIntenso:#b5179e;
+    --verdaManzana:#80b918;
+    --marron:#941b0c;
+    --turquesa:#4cc9f0;
 }
+
+body{
+    font-family: var(--fuetePpal);
+}
+
+
+.header{
+    min-width: 1024px;
+    width: 100%;
+    height: 23rem;
+    margin: 0 auto;
+    border: 1px solid var(--gris);
+}
+
+.header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--azulFrancia);
+}
+.header .logo{
+    color: var(--azulFrancia);
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+    text-shadow: 4px 4px var(--turquesa);
+}
+.header .logo:hover{
+    color: var(--turquesa);
+    text-shadow: 4px 4px var(--azulFrancia);
+}
+
+.header h1{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3.5rem;
+    text-shadow: 1px 1px var(--gris);
+}
+
