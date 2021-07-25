@@ -11,7 +11,7 @@ html {
 
 :root{
     --fuetePpal:'Lexend', sans-serif;;
-    --fuentetexto:'Noto Sans JP', sans-serif;
+    --fuenteTexto:'Noto Sans JP', sans-serif;
     --blanco:#ffff;
     --negro:#000000;
     --gris:#cae4db;
@@ -36,7 +36,6 @@ body{
     width: 100%;
     height: 23rem;
     margin: 0 auto;
-    border: 1px solid var(--gris);
 }
 
 .header a{
@@ -63,3 +62,45 @@ body{
     text-shadow: 1px 1px var(--gris);
 }
 
+/* BARRA DE NAVEGACION */
+.navegacion{
+    width: 100%;
+    background-color: var(--naranja);
+    font-size: 2rem;
+    font-family: var(--fuentetexto);
+
+}
+.navegacion ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 125rem;
+
+}
+
+.navegacion > ul >li {
+    line-height: 40px;
+    float: left;
+    background-color: var(--naranja);
+}
+
+.navegacion > ul > li a{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--blanco);
+    text-decoration: none;
+    transition: all 400ms;
+}
+.navegacion a:hover{
+    color: var(--naranja);
+}
+
+.navegacion li:hover{
+    background-color: var(--blanco);
+    box-shadow: 0px 0px 7px var(--gris) inset;
+}
+
+.navegacion a:first-child{
+    border-left: 2px solid var(--blanco);
+}
