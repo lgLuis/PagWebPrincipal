@@ -104,3 +104,18 @@ body{
 .navegacion a:first-child{
     border-left: 2px solid var(--blanco);
 }
+
+.navegacion > ul > li > ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+ .navegacion > ul >li:hover >ul {
+    display: block;
+    
+}
+.navegacion > ul >li:hover > ul > li {
+    background-color: var(--naranja);
+    line-height: 20px;
+} 
+
