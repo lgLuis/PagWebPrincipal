@@ -128,12 +128,11 @@ body{
 .navegacion{
     max-width: 140rem;
     margin: 0 auto;
-
+    text-align: center;
 }
 
 nav{
     background-color: var(--naranja);
-
 }
 
 nav ul{
@@ -147,7 +146,8 @@ nav ul li{
 }
 
 nav ul li:hover{
-    background-color: var(--orange);
+    background-color: var(--azulFrancia);
+    color: var(--naranja);
   
 }
 
