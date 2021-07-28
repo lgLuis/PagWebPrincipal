@@ -200,3 +200,56 @@ nav ul a{
     }
 } 
 
+/*CONTENIDO*/
+
+.contenido{
+    width: 140rem;
+    margin: 0 auto;
+}
+
+/*ASIDE*/
+
+.aside{
+    width: 20rem;
+    float: left;
+    background-color: var(--gris);
+    text-transform: uppercase;
+}
+
+.widget{
+    display: block;
+    width: 18rem;
+    margin:  0 auto;
+    height: 30rem;
+}
+
+.aside h3{
+    display: block;
+    color: var(--marron);
+    text-align: center;
+    background-color: var(--blanco);
+    font-size: 1.2rem;
+}
+
+/* FORMULARIOS */
+input[type="text"],
+select{
+    border: none;
+    margin: 2px;
+
+}
+
+form{
+    font-size: 1.2rem;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+}
