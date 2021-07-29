@@ -209,13 +209,20 @@ nav ul a{
 
 /*ASIDE*/
 
-.aside{
+.aside,
+.frase{
     width: 20rem;
     float: left;
     background-color: var(--gris);
     text-transform: uppercase;
+    clear: both;
 }
-
+.frase{
+    padding: 5px;
+    background-color: var(--blanco);
+    border: 1px solid var(--negro);
+    text-align: justify;
+}
 .widget{
     display: block;
     width: 18rem;
@@ -252,4 +259,17 @@ input[type="submit"]{
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
     text-transform: uppercase;
+}
+
+
+.widget a{
+    text-decoration: none;
+}
+.widget a:hover{
+    color: var(--colorado);
+}
+
+.widget ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
 }
