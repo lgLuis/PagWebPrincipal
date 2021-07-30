@@ -273,3 +273,9 @@ input[type="submit"]{
     text-decoration: none;
     font-size: 1.2rem;
 }
+
+.section{
+    float: right;
+    width: 70%;
+    font-size: 1.6rem;
+}
